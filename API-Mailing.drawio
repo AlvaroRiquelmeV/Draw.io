@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T19:33:19.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="48UsN70dhsit8TbZjsM_" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-23T20:12:03.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4kpRUo6BnNcikPMAAHOQ" version="20.5.3" type="github" pages="3">
   <diagram id="_FBF3VUCBobr670qvWK1" name="Página-2">
     <mxGraphModel dx="1021" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Base de datos" id="u6toLSjGgIMawWejA9_E">
-    <mxGraphModel dx="2205" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2401" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,6 +199,14 @@
         </mxCell>
         <mxCell id="kg-4zczay7WPdVNOa1s0-13" value="+ Id&#xa;+ ProcessId&#xa;+ Schedule Type" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="kg-4zczay7WPdVNOa1s0-12" vertex="1">
           <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR7f08FQTK7-2yj1gq2D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="kg-4zczay7WPdVNOa1s0-18" target="YyMQZ12qbrtMW_TAwCsF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="250" />
+              <mxPoint x="418" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kg-4zczay7WPdVNOa1s0-18" value="Processes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="338" y="285" width="160" height="140" as="geometry" />
@@ -273,7 +281,7 @@
           <mxGeometry x="-520" y="65" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YyMQZ12qbrtMW_TAwCsF-4" value="Ejemplo de registros:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 25 - 2018-05-09... - pc - null - 8 - Vacaciones Contingencia&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 46 - 2018-06-05 .. - pc - robertrojas@gmail.com - 12 - Re Contrato" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="184" y="180" width="446" height="90" as="geometry" />
+          <mxGeometry x="184" y="180" width="446" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YyMQZ12qbrtMW_TAwCsF-5" value="Ejemplo de registros:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;22 -2018-06-05... - ROBERT-PC - saraalguerno @gmail.com -JEFE RRHH&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 24 -2018-06-06... - pc - robertrojas @gmail.com - Terminales" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="138" y="-70" width="560" height="70" as="geometry" />
@@ -300,9 +308,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YyMQZ12qbrtMW_TAwCsF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;" edge="1" parent="1" source="kg-4zczay7WPdVNOa1s0-23" target="YyMQZ12qbrtMW_TAwCsF-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YyMQZ12qbrtMW_TAwCsF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="kg-4zczay7WPdVNOa1s0-19" target="YyMQZ12qbrtMW_TAwCsF-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YyMQZ12qbrtMW_TAwCsF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=14;" edge="1" parent="1" source="kg-4zczay7WPdVNOa1s0-27" target="YyMQZ12qbrtMW_TAwCsF-6">
